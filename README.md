@@ -54,7 +54,7 @@ This function is in the JRWToolBox R package, test code is below the function.
              60.3, 506.9, 221.8, 112.5, 93.7, 199.3, 210.6, 39.2)
     
     
-    Log.Norm.CI.Cox.t(DATA) # Compares to 188.0 and 414.7 in the reference
+    Log.Norm.CI.Cox.t(DATA) # Compare to 188.0 and 414.7 in the reference
     Log.Norm.CI.Cox.t(Mean = mean(DATA), SD = sqrt(var(DATA)), N = length(DATA), Boot = 10000)
     
     # -----
