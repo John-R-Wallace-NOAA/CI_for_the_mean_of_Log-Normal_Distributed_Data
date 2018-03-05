@@ -1,4 +1,4 @@
-This function is in the JRWToolBox R package
+This function is in the JRWToolBox R package.
 
     Log.Norm.CI.Cox.t <- function(x = NULL, MeanLogNorm = NULL, SDLogNorm.Pop = NULL, N = NULL, BootReps = 10000, Prob = 0.95) {
     
