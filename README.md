@@ -1,4 +1,5 @@
 This function is in the JRWToolBox R package
+
     Log.Norm.CI.Cox.t <- function(x = NULL, MeanLogNorm = NULL, SDLogNorm.Pop = NULL, N = NULL, BootReps = 10000, Prob = 0.95) {
     
     "  # Confidence intervals for the mean of a Log-Normal Distribution using the Cox method modified to use a t distribution is from:  "
