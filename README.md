@@ -1,4 +1,4 @@
-This function is in the JRWToolBox R package. 
+This function is in the JRWToolBox R package (https://github.com/John-R-Wallace/JRWToolBox). 
 
 There is test code is below the function. Note that the format for the output is: lower CI, mean, uppper CI.
 
