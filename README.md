@@ -43,7 +43,7 @@ This function is in the JRWToolBox R package, test code is below the function.
      }
     }
     
-    
+--------------------------------------------------------------------------------------------------------------------------   
     
     # Data from the reference:
     
