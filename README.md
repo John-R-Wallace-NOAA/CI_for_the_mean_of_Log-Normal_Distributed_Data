@@ -1,4 +1,5 @@
 This function is in the JRWToolBox R package. There is test code is below the function.
+The format for the output is: lower CI, mean, uppper CI.
 
     Log.Norm.CI.Cox.t <- function(x = NULL, MeanLogNorm = NULL, SDLogNorm.Pop = NULL, N = NULL, BootReps = 10000, Prob = 0.95) {
     
@@ -54,7 +55,7 @@ This function is in the JRWToolBox R package. There is test code is below the fu
              60.3, 506.9, 221.8, 112.5, 93.7, 199.3, 210.6, 39.2)
     
     
-    Log.Norm.CI.Cox.t(DATA) # Compare to 188.0 and 414.7 in the reference. The format is: lower CI, mean, uppper CI.
+    Log.Norm.CI.Cox.t(DATA) # Compare to 188.0 and 414.7 in the reference. 
     Log.Norm.CI.Cox.t(Mean = mean(DATA), SD = sqrt(var(DATA)), N = length(DATA), Boot = 10000)
     
     # -----
