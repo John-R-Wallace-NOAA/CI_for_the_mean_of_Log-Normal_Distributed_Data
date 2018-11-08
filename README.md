@@ -1,6 +1,6 @@
 This function is in the JRWToolBox R package (https://github.com/John-R-Wallace/JRWToolBox). 
 
-There is test code is below the function. Note that the format for the output is: lower CI, mean, uppper CI.
+There is test code below the function. Note that the format for the output is: lower CI, mean, uppper CI.
 
     Log.Norm.CI.Cox.t <- function(x = NULL, MeanLogNorm = NULL, SDLogNorm.Pop = NULL, N = NULL, BootReps = 10000, Prob = 0.95) {
     
